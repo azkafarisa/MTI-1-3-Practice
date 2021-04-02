@@ -1,5 +1,8 @@
 
 function aVeryBigSum(arr) {
+
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+return(arr.reduce(reducer));
 }
 
 const result = (testStudent, testCase) => testStudent === testCase
